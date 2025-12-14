@@ -91,7 +91,7 @@ public class Worker
 	}
 
 	public double doubleSalary() {
-		return addSalary(this) * 2;
+		return addSalary(this);
 	}
 
 	public String toString() {
